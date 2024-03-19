@@ -57,12 +57,13 @@ i{
     font-size: 16px;
     font-weight: 600;
      background-color: white;
+     cursor: pointer;
 
 }
 #nav #btn2{
     color: white;
     background-color: orangered;
-    border: none;
+    border: 0.75px solid black;
 }
 #main>h1{
     
@@ -88,4 +89,44 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
     
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+
+}
+
+#btm_left{
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    font-size: 17px;
+    font-weight: 450;
+}
+#social{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    bottom: 9%;
+    right: 5%;
+}
+i{
+    color: black;
+    font-size: 12px;
+    margin: 3px;
+    
+}
+#h5{
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+
 }
